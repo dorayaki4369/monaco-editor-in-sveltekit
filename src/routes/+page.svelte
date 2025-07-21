@@ -22,7 +22,7 @@
 </script>
 
 <svelte:head>
-  <title>Monaco Editor Sample</title>
+  <title>Monaco Editor + SvelteKit Example</title>
 </svelte:head>
 
 <div
@@ -30,7 +30,7 @@
   data-theme={cssTheme}
 >
   <div class="p-4 flex flex-col gap-4">
-    <h1 class="text-2xl">Monaco Editor sample</h1>
+    <h1 class="text-2xl">Monaco Editor + SvelteKit Example</h1>
 
     <div class="flex flex-col gap-2">
       <div>
@@ -51,7 +51,7 @@
       </div>
 
       <div>
-        <label for="theme" class="text-white">Theme</label>
+        <label for="theme">Theme</label>
         <ThemeButton />
       </div>
     </div>
