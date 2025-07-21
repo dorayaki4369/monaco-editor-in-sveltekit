@@ -13,6 +13,12 @@
     "format": "prettier --write .",
     "lint": "prettier --check ."
   },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "monaco-editor": "^0.52.2",
+    "monaco-yaml": "^5.4.0",
+    "tailwindcss": "^4.1.11"
+  },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^6.0.0",
     "@sveltejs/adapter-static": "^3.0.8",
@@ -30,11 +36,5 @@
       "@tailwindcss/oxide",
       "esbuild"
     ]
-  },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.11",
-    "monaco-editor": "^0.52.2",
-    "monaco-yaml": "^5.4.0",
-    "tailwindcss": "^4.1.11"
   }
 }
